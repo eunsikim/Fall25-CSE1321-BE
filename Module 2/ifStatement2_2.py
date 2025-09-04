@@ -15,10 +15,12 @@ def main():
 
     if isValid:
         print("Your password is valid")
-        print("You can proceed with registration")
-    else:
-        print("Your password is not valid")
-
+    if not hasValidLength:
+        print("Your password is too short (minimum 8 characters long)")
+    if not hasSpecChar:
+        print("Your password does not contain all special characters (!, #)")
+    if not hasNumber:
+        print("Your password does not contain a number")
 
 if __name__ == "__main__":
     main()
