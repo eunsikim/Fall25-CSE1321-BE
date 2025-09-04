@@ -9,7 +9,10 @@ def main():
     # isValid = '!' in password and '#' in password
     isValid = len(password) >= 8 and '!' in password and '#' in password
 
-    print(isValid)
+    if isValid:
+        print("Your password is valid")
+    else:
+        print("Your password is not valid")
 
 
 if __name__ == "__main__":
