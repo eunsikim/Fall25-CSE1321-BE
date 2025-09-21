@@ -45,6 +45,10 @@ def main():
 
         anotherGame = input("Do you want to play again (yes/no): ").lower()
 
+        while anotherGame != "yes" and anotherGame != "no":
+            print("Please enter yes or no")
+            anotherGame = input("Do you want to play again (yes/no): ").lower()
+
 
 if __name__ == "__main__":
     main()
