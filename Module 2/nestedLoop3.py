@@ -3,9 +3,8 @@ def main():
 
     for x in range(size):
         for y in range(size):
-            print("*", end="")
+            print("#", end="")
         print()
-    
     print()
 
     counter = 1
