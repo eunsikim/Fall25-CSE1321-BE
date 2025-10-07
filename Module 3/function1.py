@@ -1,12 +1,12 @@
+def printHelloWorld():
+    print("Hello World")
+
 def printMenu():
     print("1 -> Print Hello World")
     print("2 -> Calculate force")
     print("X -> To stop")
 
     return input("> ") #1
-
-def printHelloWorld():
-    print("Hello World")
 
 def forceHandler():
     mass = float(input("Enter mass: "))
