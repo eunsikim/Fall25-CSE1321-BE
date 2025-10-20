@@ -1,7 +1,9 @@
 def main():
     states = ["Georgia", "Florida", "Alabama", "Tennessee", "S. Carolina", "N. Carolina"]
 
-    states.insert(1000, "Washington")
+    more_states = ["Texas", "Washington"]
+
+    states[3:6] = more_states
 
     print(states)
 

@@ -1,9 +1,11 @@
 def main():
     states = ["Georgia", "Florida", "Alabama", "Tennessee", "S. Carolina", "N. Carolina"]
 
-    states.insert(1000, "Washington")
+    more_states = ["Texas", "Washington"]
 
-    print(states)
+    more_states.extend(states)
+
+    print(more_states)
 
 if __name__ == "__main__":
     main()
