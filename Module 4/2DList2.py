@@ -27,6 +27,15 @@ def main():
 
         print(f"Student: {name}, Final Grade: {final_grade}")
 
+    search = input("Enter Student Name: ")
+
+    for student in student_list:
+        if student[0] == search:
+            print(f"Student {student[0]}")
+            print(f"Labs: {student[1:14]}")
+            print(f"Assignment: {student[14:21]}")
+            print(f"Midterm Exam: {student[21]}")
+            print(f"Final Exam: {student[22]}")
 
 if __name__ == "__main__":
     main()
