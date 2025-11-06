@@ -1,0 +1,52 @@
+Components:
+Authentication
+- users -> List of Student, Staff, and Faculty objs
+- sign in()
+- register()
+
+Student
+- id
+- password
+- name
+- major
+- courses registered -> List of Course objs
+- grades -> List of Grade objs
+- register() # Whenever a students registers, we need to keep on a grade object
+- print schedule()
+- print grade()
+
+Staff
+- id
+- password
+- name
+- create course()
+- update course()
+- remove course()
+
+Faculty
+- id
+- password
+- name
+- update grade()
+
+Grade
+- student -> Student obj
+- course -> Course obj
+- grade -> String: "A", "B", "C", "D", "F"
+
+Course Manager
+- course list -> List of Course objs
+- print all courses() -> Print the information of all the courses being offered
+
+Course #This is a single course
+- CRN
+- Name
+- Desc.
+- Time
+- Location
+- Days
+- Modality
+- Credit
+- Pre-req
+- class list -> List of Student objs
+
