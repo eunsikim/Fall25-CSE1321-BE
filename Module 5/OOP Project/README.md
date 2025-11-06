@@ -1,14 +1,13 @@
 ## **Description**
 We are going to build an OwlExpress-like application, where students will register for courses, staff can update course offering, and where faculty can input the course grade of students.
 
-## **Requirements**
+## **Requirements, Rules and relationships**
 - Students can register to multiple courses.
 
 - Staff members can create, update, and delete courses in the system.
 
 - Faculty members can input the course grade of a student registered in their classes
 
-## **Rules and relationships**
 - The time of the courses a student registers should not conflict.
 
 - Students will have one course grade for each course they register for.
